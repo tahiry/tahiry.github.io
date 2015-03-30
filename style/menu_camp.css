@@ -1,0 +1,39 @@
+#navcontainer ul
+{
+	padding: 0;
+	margin: 0;
+	background-image:url('images/menu-background.jpg');
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	float:left;
+	width:100%;
+	letter-spacing: 1px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+
+#navcontainer ul li
+{
+	display: inline;
+}
+
+#navcontainer ul li a
+{
+	padding: 0.2em 1.5em;
+	background-image:url('images/menu-background.jpg');
+	background-repeat:repeat-x;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+
+#navcontainer ul li a:hover
+{
+	background-image:url('images/menu-hover.jpg');
+	background-repeat:repeat-x;
+	color: #A0C80E;
+}

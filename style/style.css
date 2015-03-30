@@ -1,0 +1,159 @@
+
+body { 	
+	color : black;
+	background-color : #ccc;
+	background:	url(../images/lines.png);
+	background-attachment : fixed;
+	background-position : bottom left;
+	font-family: Georgia, Palatino, serif; 
+	color:	#666; 
+}
+
+table {
+	width : 100%;
+	rightpadding : 7em;
+}
+
+A:link	{	
+	text-decoration:	none;
+        border-bottom: dotted 1px #630;
+	color:	blue;
+	background:	none;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	font-style:	italic;
+	color:	green;
+	background:	none;
+	border-bottom: solid 1px #630;
+}	
+
+A:visited	{	
+	text-decoration: none;	
+	color:	purple;
+	background:	none;
+}	
+		
+		
+A:hover	{	
+	text-decoration:	none;
+	color:	red;
+	background:	none;
+	  border-bottom: solid 1px #630;
+	}
+
+
+div, p, th, td, li, dd, dl, dt {
+font-family: Georgia, Times New Roman, Times, serif;
+line-height: 1.5em;
+}
+
+h1	{
+	font-size:	2em;
+	}
+h2	{
+	font-size:	1.75em;
+	}
+h3	{
+	font-size:	1.5em;
+	}
+h4	{
+	font-size:	1.25em;
+	}
+h5	{
+
+	font: .8em Georgia, Times New Roman, Times, serif;
+	}
+h6	{
+	font-size:	0.8em;
+	}	
+
+h1, h2, h3, h4, h5, h6	{
+	font-family:	arial, helvetica, sans-serif;
+	color : #333;
+	}
+
+.sidebar { 
+padding: 0px;
+float: left; }
+
+
+.menu {	
+	width: 120px;
+   	background: #ccc;	
+	text-align : left;
+	font-weight : bold; 
+	list-style: none outside;
+	margin: 0 5px 10px 0;
+	border : thin solid;
+	font: normal 10px geneva, verdana, sans-serif; 
+}
+
+.menu li a {
+   display: block;
+   padding: 5px;
+   margin: 0;
+   background: #fff;
+   color: #000;
+   border-top: solid 1px #999;
+   border-bottom: solid 1px #ccc;
+   font: normal 10px geneva, verdana, sans-serif;
+   text-decoration: none;
+	}
+
+.menu li A:visited	{	
+   display: block;
+   padding: 5px;
+   margin: 0;
+   background: #fff;
+   color: #000;
+   border-top: solid 1px #999;
+   border-bottom: solid 1px #ccc;
+   font: normal 10px geneva, verdana, sans-serif;
+   text-decoration: none;
+}	
+
+.menu li a:hover {
+   background: #eee;
+   color: blue;
+   text-decoration: underline;
+	}
+
+.dl li A {	
+	text-decoration:	none;
+        border-bottom: none;
+	background:	none;
+	}	
+
+.dl li A:hover	{	
+	text-decoration:	none;
+	color:	red;
+	background:	none;
+	  border-bottom: none;
+	}
+
+	
+.contentText {	
+	color:	#444; 
+	background-color : white;
+	border : thin solid;
+	margin-left : 200px;
+	margin-right : 10px;
+	padding: 15px;
+	}
+	
+ADDRESS {
+	font-style:	oblique;
+	font-size:	.7em;
+	letter-spacing:	normal;
+	text-transform:	none;
+	padding-top:	30pt;
+}
+
+UL.list	{	
+	list-style-image:	url("../images/baballe1.png");
+	padding-left:	20pt;
+	padding-right:	20pt;
+	margin-left:	4em;
+	}
