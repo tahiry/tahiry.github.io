@@ -4,7 +4,7 @@
 	margin: 0;
 	background-image:url('images/menu-background.jpg');
 	background-repeat:repeat-x;
-	color:#FFFFFF;
+	color:#FFFFEE;
 	float:left;
 	width:100%;
 	letter-spacing: 1px;
@@ -35,5 +35,5 @@
 {
 	background-image:url('images/menu-hover.jpg');
 	background-repeat:repeat-x;
-	color: #A0C80E;
+	color: #A0C80F;
 }
